@@ -1,0 +1,204 @@
+<html>
+<head>
+<link href="../styles\lamerShooping.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="../script\script.js" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+
+<!--Try using JQuery for drag and drop func-->
+
+
+
+</head>
+<body>
+
+<header class="main-header">
+<img class="headerimg" src="../croppedImage\HeaderImage.png"/> 
+</header>
+<div class="info">
+Lorem ipsum dolor sit amet,consectetur adipiscing elit
+</div>
+<!--main content-->
+
+<div class="container">
+
+<div class="product-block">
+<div class="product-name">
+<p><I><b>1</b>Deton</I></p>
+</div>
+
+<!--To Drag <a> used-->
+<a href="#" class="item">
+
+<div class="left-img">
+<img class="lotion-img shop-item-image"src="../croppedImage\prod1.jpg" id="img1"/>
+</div>
+<div class="option">
+ <span class="option-txt">or</span>
+</div>
+<div class="right-img">
+<img class="gel-img shop-item-image"src="../croppedImage\prod2.jpg" id="img2"/>
+</div>
+
+</a>
+
+<div class="pro-form-details">
+
+<div class="product1-info shop-item-title">
+<span>The Cleaning Foam</span>
+   </div>
+<div class="quick-product1-info">
+ <span>Delicate</span> 
+</div>
+<button class="btn-toAdd shop-item-button btn-1" type="button" onclick="addToCart('img1')">Add To Cart</button>
+</div>
+
+<div class="pro-gel-details">
+
+<div class="product2-info shop-item-title">
+The Cleaning Gel
+</div>
+<div class="quick-product2-info">
+Foaming Gel
+</div>
+<button class="btn-toAdd shop-item-button btn-1" type="button"  onclick="addToCart('img2')">Add To Cart</button>
+<!--onclick="addToCart('img2')"-->
+</div>
+
+</div>
+
+
+
+<!--2nd image -->
+<div id="block2" class="product-block2 disble-block2">
+
+<!--try
+<div class="blur-img1">
+  <img src="C:\Users\training\Desktop\blur.jpg"/>
+</div-->
+
+<div class="product-name">
+<p><I>2ENERGIZE</I></p>
+</div>
+
+<a href="#" class="item">
+
+<div class="left-img">
+<img class="gel-img shop-item-image"src="../croppedImage\faceCream.jpg" id="img3" />
+</div>
+<div class="option">
+ <span class="option-txt">or</span>
+</div>
+<div class="right-img">
+<img class="gel-img shop-item-image"src="../croppedImage\skinToner.jpg" id="img4"/>
+</div>
+
+</a>
+
+<div class="pro-form-details">
+
+<div class="product1-info shop-item-title">
+<span>The Cleaning Foam</span>
+   </div>
+<div class="quick-product1-info">
+ <span>Delicate</span> 
+</div>
+<button class="btn-toAdd shop-item-button disble-class" type="button" onclick="addToCart('img3')">Add To Cart</button>
+</div>
+
+<div class="pro-gel-details">
+
+<div class="product2-info shop-item-title">
+The Cleaning Gel
+</div>
+<div class="quick-product2-info">
+Foaming Gel
+</div>
+<button class="btn-toAdd shop-item-button disble-class" type="button" onclick="addToCart('img4')">Add To Cart</button>
+</div>
+
+</div>
+
+<!--3rd img-->
+
+<div id="block3" class="product-block3 disble-block3">
+<div class="product-name">
+<p><b>3</b>PROTECT</p>
+</div>
+
+<a href="#" class="item">
+
+<div class="left-img">
+<img class="gel-img shop-item-image"src="../croppedImage\moisrurizing.jpg" id="img5"/>
+</div>
+<div class="option">
+ <span class="option-txt">or</span>
+</div>
+<div class="right-img">
+<img class="gel-img shop-item-image"src="../croppedImage\skinCare.jpg" id="img6"/>
+</div>
+
+</a>
+
+<div class="pro-form-details">
+
+<div class="product1-info shop-item-title">
+<span>The Soft Cream</span>
+   </div>
+<div class="quick-product1-info">
+ <span>Delicate</span> 
+</div>
+<button class="btn-toAdd shop-item-button" type="button" onclick="addToCart('img5')">Add To Cart</button>
+</div>
+
+<div class="pro-gel-details">
+
+<div class="product2-info shop-item-title">
+Skin Care Cream
+</div>
+<div class="quick-product2-info">
+Foaming Gel
+</div>
+<button class="btn-toAdd shop-item-button" type="button" onclick="addToCart('img6')">Add To Cart</button>
+</div>
+
+</div>
+
+
+<!--Add Baggage-->
+
+<div class="baggage-cointainer">
+
+<div class="instruction-text">
+<p class="instruction-bag">Drag & Drop <br/> Instruction Copy</p>
+</div>
+
+<div class="baggage" >
+<img src="../croppedImage\cartBag.jpg"/>
+</div>
+
+
+<div class="your-bag-txt">
+<span class="txt">Your Bag</span>
+</div>
+<div class="cart-items"> 
+<div class="cart-row " id="added-Items">
+
+ <div class="added-items cart-column"> 
+ <!--img class="cart-item-image" src="C:\Users\training\Desktop\Task Resource\prod1.jpg" width="80" height="100">
+ <button class=" btn btn-remove" type="button">REMOVE</button-->
+<!-- <div class="cart-remove-item cart-column"> -->
+ 
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+</body>
+</html>
